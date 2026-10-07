@@ -1,0 +1,296 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shrinivas Patil | Personal Portfolio</title>
+
+    <meta name="description"
+          content="Official personal website of Shrinivas Patil - Student, Tech Enthusiast and Developer.">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                SP<span>.</span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#interests">Interests</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="profile-ring">
+
+                <!-- Replace profile.jpg with your photo -->
+                <img src="profile.jpg"
+                     alt="Shrinivas Patil"
+                     class="profile">
+
+            </div>
+
+
+            <p class="welcome">
+                👋 Hello, I'm
+            </p>
+
+
+            <h1>
+                Shrinivas <span>Patil</span>
+            </h1>
+
+
+            <h2>
+                I'm a <span id="typing"></span>
+            </h2>
+
+
+            <p class="hero-description">
+
+                A passionate student at
+                <strong>M. S. Ramaiah Institute of Technology, Bengaluru</strong>.
+
+                I love technology, learning new things,
+                building creative projects and improving myself every day.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#about" class="primary-btn">
+                    <i class="fa-solid fa-user"></i>
+                    About Me
+                </a>
+
+                <a href="https://www.instagram.com/shrinivas_reddy_/"
+                   target="_blank"
+                   class="secondary-btn">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+
+                </a>
+
+            </div>
+
+
+            <!-- SOCIAL ICONS -->
+
+            <div class="social-icons">
+
+                <a href="https://www.instagram.com/shrinivas_reddy_/"
+                   target="_blank"
+                   aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+
+                <a href="https://wa.me/918310781789"
+                   target="_blank"
+                   aria-label="WhatsApp">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+
+
+                <a href="tel:+918310781789"
+                   aria-label="Call">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="section" id="about">
+
+        <div class="section-title">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-card">
+
+                <div class="about-icon">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am Shrinivas Patil, a student from Karnataka
+                    currently pursuing my education at
+                    M. S. Ramaiah Institute of Technology, Bengaluru.
+                </p>
+
+                <p>
+                    I am an enthusiastic learner who enjoys exploring
+                    technology, discovering new ideas and challenging
+                    myself to become better every day.
+                </p>
+
+            </div>
+
+
+            <div class="about-card highlight">
+
+                <div class="about-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+
+                <h3>My Mindset</h3>
+
+                <p>
+                    I believe that consistency, hard work and curiosity
+                    are the keys to achieving great things.
+                </p>
+
+                <div class="qualities">
+
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                        Hard Working
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                        Tech Enthusiast
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                        Quick Learner
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                        Creative Thinker
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- EDUCATION -->
+
+    <section class="section education-section" id="education">
+
+        <div class="section-title">
+
+            <p>MY JOURNEY</p>
+
+            <h2>
+                Education <span>& Journey</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Present
+                    </span>
+
+                    <h3>
+                        M. S. Ramaiah Institute of Technology
+                    </h3>
+
+                    <p>
+                        Bengaluru, Karnataka
+                    </p>
+
+                    <p>
+                        Currently pursuing my higher education
+                        a
+```
+
